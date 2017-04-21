@@ -88,6 +88,7 @@ NS_ASSUME_NONNULL_BEGIN
  @return Returns a set of the objects returned by the block.
  */
 - (NSSet *)bk_map:(id (^)(ObjectType obj))block;
+- (NSSet *)bk_compact:(id (^)(ObjectType obj))block;
 
 /** Arbitrarily accumulate objects using a block.
 

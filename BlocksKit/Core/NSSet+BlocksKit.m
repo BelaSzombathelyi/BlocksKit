@@ -71,6 +71,19 @@
 	return result;
 }
 
+- (NSSet *)bk_compact:(id (^)(id obj))block
+{
+  NSParameterAssert(block != nil);
+  NSMutableSet *result = [NSMutableSet setWithCapacity:self.count];
+  [self enumerateObjectsUsingBlock:^(id obj, BOOL *stop) {
+    id value = block(obj);
+    if (value) {
+      [result addObject:value];
+    }
+  }];
+  return result;
+}
+
 - (id)bk_reduce:(id)initial withBlock:(id (^)(id sum, id obj))block
 {
 	NSParameterAssert(block != nil);
