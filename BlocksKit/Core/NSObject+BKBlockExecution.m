@@ -15,10 +15,6 @@ NS_INLINE dispatch_time_t BKTimeDelay(NSTimeInterval t) {
     return dispatch_time(DISPATCH_TIME_NOW, (uint64_t)(NSEC_PER_SEC * t));
 }
 
-NS_INLINE dispatch_time_t BKTimeNow() {
-    return dispatch_time(DISPATCH_TIME_NOW, 0);
-}
-
 NS_INLINE BOOL BKSupportsDispatchCancellation(void) {
 #if DISPATCH_CANCELLATION_SUPPORTED
     return (&dispatch_block_cancel != NULL);

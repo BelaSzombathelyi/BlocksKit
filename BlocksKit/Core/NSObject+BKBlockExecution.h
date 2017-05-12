@@ -11,10 +11,6 @@ NS_ASSUME_NONNULL_BEGIN
 typedef __nonnull id <NSObject, NSCopying> BKCancellationToken;
 
 
-NS_INLINE dispatch_time_t BKTimeDelay(NSTimeInterval t);
-NS_INLINE dispatch_time_t BKTimeNow();
-
-
 /** Block execution on *any* object.
 
  This category overhauls the `performSelector:` utilities on

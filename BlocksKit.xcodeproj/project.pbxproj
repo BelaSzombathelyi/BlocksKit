@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD29E0BE1EC59900006ABC12 /* BKRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = AD29E0BC1EC59900006ABC12 /* BKRuntime.h */; };
+		AD29E0BF1EC59900006ABC12 /* BKRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = AD29E0BC1EC59900006ABC12 /* BKRuntime.h */; };
+		AD29E0C01EC59900006ABC12 /* BKRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = AD29E0BD1EC59900006ABC12 /* BKRuntime.m */; };
+		AD29E0C11EC59900006ABC12 /* BKRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = AD29E0BD1EC59900006ABC12 /* BKRuntime.m */; };
 		DB4CA4261B3A662A004B70F8 /* BKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4051B3A662A004B70F8 /* BKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4CA4271B3A662A004B70F8 /* BKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4051B3A662A004B70F8 /* BKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB4CA4281B3A662A004B70F8 /* NSArray+BlocksKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4CA4061B3A662A004B70F8 /* NSArray+BlocksKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -373,6 +377,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD29E0BC1EC59900006ABC12 /* BKRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKRuntime.h; sourceTree = "<group>"; };
+		AD29E0BD1EC59900006ABC12 /* BKRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKRuntime.m; sourceTree = "<group>"; };
 		DB4CA3F91B3A624B004B70F8 /* Common-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Common-Framework.xcconfig"; sourceTree = "<group>"; };
 		DB4CA3FA1B3A624B004B70F8 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
 		DB4CA3FB1B3A624B004B70F8 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
@@ -613,6 +619,8 @@
 				DB4CA4231B3A662A004B70F8 /* NSSet+BlocksKit.m */,
 				DB4CA4241B3A662A004B70F8 /* NSTimer+BlocksKit.h */,
 				DB4CA4251B3A662A004B70F8 /* NSTimer+BlocksKit.m */,
+				AD29E0BC1EC59900006ABC12 /* BKRuntime.h */,
+				AD29E0BD1EC59900006ABC12 /* BKRuntime.m */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -918,6 +926,7 @@
 				DB4CA4BA1B3A6657004B70F8 /* NSObject+A2BlockDelegate.h in Headers */,
 				DB4CA42E1B3A662A004B70F8 /* NSDictionary+BlocksKit.h in Headers */,
 				DB9B961C1B3A52A700940D20 /* BlocksKit.h in Headers */,
+				AD29E0BF1EC59900006ABC12 /* BKRuntime.h in Headers */,
 				DB4CA4601B3A662A004B70F8 /* NSObject+BKBlockExecution.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -947,6 +956,7 @@
 				DB4CA45F1B3A662A004B70F8 /* NSObject+BKBlockExecution.h in Headers */,
 				DB4CA4321B3A662A004B70F8 /* NSIndexSet+BlocksKit.h in Headers */,
 				DB4CA43C1B3A662A004B70F8 /* NSMapTable+BlocksKit.h in Headers */,
+				AD29E0BE1EC59900006ABC12 /* BKRuntime.h in Headers */,
 				DBA576A31B3A7B9700E41A6B /* BKDefines.h in Headers */,
 				DB4CA44B1B3A662A004B70F8 /* NSMutableIndexSet+BlocksKit.h in Headers */,
 				DB4CA42D1B3A662A004B70F8 /* NSDictionary+BlocksKit.h in Headers */,
@@ -1182,6 +1192,7 @@
 				DB4CA4D51B3A6657004B70F8 /* UIActionSheet+BlocksKit.m in Sources */,
 				DB4CA4CB1B3A6657004B70F8 /* MFMessageComposeViewController+BlocksKit.m in Sources */,
 				DB4CA4EE1B3A6657004B70F8 /* UIImage+BlocksKit.m in Sources */,
+				AD29E0C11EC59900006ABC12 /* BKRuntime.m in Sources */,
 				DB4CA5071B3A6657004B70F8 /* UIWebView+BlocksKit.m in Sources */,
 				DB4CA4621B3A662A004B70F8 /* NSObject+BKBlockExecution.m in Sources */,
 				DB4CA4FD1B3A6657004B70F8 /* UITextField+BlocksKit.m in Sources */,
@@ -1262,6 +1273,7 @@
 				DB4CA4391B3A662A004B70F8 /* NSInvocation+BlocksKit.m in Sources */,
 				DB4CA4701B3A662A004B70F8 /* NSSet+BlocksKit.m in Sources */,
 				DB4CA4B11B3A6657004B70F8 /* NSCache+BlocksKit.m in Sources */,
+				AD29E0C01EC59900006ABC12 /* BKRuntime.m in Sources */,
 				DB4CA4431B3A662A004B70F8 /* NSMutableArray+BlocksKit.m in Sources */,
 				DB4CA4C01B3A6657004B70F8 /* NSObject+A2DynamicDelegate.m in Sources */,
 				DB4CA45C1B3A662A004B70F8 /* NSObject+BKAssociatedObjects.m in Sources */,
